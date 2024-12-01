@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:socal_x/ui/screens/splash_screen.dart';
+import 'ui/screens/sign_in_screen.dart';
 
 class SocalxApp extends StatelessWidget {
   const SocalxApp({super.key});
@@ -10,7 +11,8 @@ class SocalxApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Socal X',
       routes: {
-        '/': (context)=> const SplashScreen()
+        '/': (context)=> const SplashScreen(),
+        SignInScreen.name: (context)=> const SignInScreen(),
       },
     );
   }

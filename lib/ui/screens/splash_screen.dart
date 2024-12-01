@@ -1,4 +1,7 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:socal_x/ui/screens/sign_in_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -11,8 +14,11 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
+    Timer(
+        const Duration(seconds: 3), () =>
+        Navigator.popAndPushNamed(context,SignInScreen.name)
+    );
   }
 
   @override

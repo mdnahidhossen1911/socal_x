@@ -4,13 +4,5 @@ A Socal Media Application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+-[Figma Ui Design](https://www.figma.com/design/LtHqGutvBCo4u1mKvhO8to/Social-Media-X-App-UI-Kit-(Community)?node-id=1201-8030&node-type=frame&t=UO6OinAOiKzetb7s-0)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
